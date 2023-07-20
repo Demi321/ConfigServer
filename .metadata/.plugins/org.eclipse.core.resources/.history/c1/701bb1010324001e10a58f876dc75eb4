@@ -1,0 +1,5 @@
+package com.example.carro.entities;
+
+public class Carro {
+
+}

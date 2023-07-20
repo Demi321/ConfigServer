@@ -1,0 +1,14 @@
+package com.example.carro.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.carro.repository.ICarroRepository;
+
+@Service
+public class CarroService {
+
+	
+	@Autowired
+	private ICarroRepository carroRepository;
+}
